@@ -2,7 +2,7 @@
 
 echo "Build source..."
 npm install
-npm run package
+npm run build
 
 echo "Build readme..."
 curl -L https://raw.githubusercontent.com/fumikito/wp-readme/master/wp-readme.php | php
