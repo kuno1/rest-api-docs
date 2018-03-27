@@ -35,11 +35,8 @@ To build this plugin, follow the instructions below. [npm](https://www.npmjs.com
 #Clone repository.
 git clone git@github.com:kuno1/rest-api-docs.git
 cd rest-api-docs
-#Build assets. NPM 6.11.0 and over is required.
-npm install
-npm run build
-#Remove unnecessary files.
-rm -rf {node_modules,tests,bin}
+#Build assets and remove unnecessary files.
+./bin/package.sh
 </pre>
 
 ## Frequently Asked Questions
