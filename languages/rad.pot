@@ -1,0 +1,99 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: REST API Docs\n"
+"POT-Creation-Date: 2018-03-27 18:21+0900\n"
+"PO-Revision-Date: 2018-03-27 18:14+0900\n"
+"Last-Translator: Takahashi Fumiki <takahashi.fumiki@hametuha.co.jp>\n"
+"Language-Team: Takahashi Fumiki <takahashi.fumiki@hametuha.co.jp>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: rest-api-doc.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/i18n.php:12
+msgid "Home"
+msgstr ""
+
+#: includes/i18n.php:13
+msgid "Namespaces"
+msgstr ""
+
+#: includes/i18n.php:14
+msgid "Not set"
+msgstr ""
+
+#: includes/i18n.php:15
+msgid "Type"
+msgstr ""
+
+#: includes/i18n.php:16
+msgid "Arguments"
+msgstr ""
+
+#: includes/i18n.php:17
+msgid "No arguments."
+msgstr ""
+
+#: includes/i18n.php:18
+msgid "Default Value"
+msgstr ""
+
+#: includes/i18n.php:19
+msgid "Allowed Value"
+msgstr ""
+
+#: includes/i18n.php:20
+msgid "Required"
+msgstr ""
+
+#: includes/i18n.php:21
+msgid "Description"
+msgstr ""
+
+#: rest-api-doc.php:24
+#, php-format
+msgid "This plugin requires PHP 5.4 and over, but your's %s."
+msgstr ""
+
+#: rest-api-doc.php:49
+msgid "REST API Doc"
+msgstr ""
+
+#: rest-api-doc.php:49
+msgid "REST API"
+msgstr ""
+
+#: rest-api-doc.php:83
+msgid "REST API Documentation"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "REST API Docs"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/rest-api-docs"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "A documentation tool for WP REST API."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Kunoichi INC."
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://kunoichiwp.com"
+msgstr ""

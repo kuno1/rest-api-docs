@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+div.wrap>h2:first-child{
+  margin-bottom: 40px;
+}
+
+.rad-wrap{
+  width: 100%;
+}
+.rad-main{
+}
+
+.rad-no-namespace{
+  margin-top: 40px;
+  font-size: 24px;
+  color: #888;
+}
+
+.loading{
+  position: relative;
+  z-index: 10;
+  &:before{
+    content: "";
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba( 255, 255, 255, .8);
+    z-index: 11;
+  }
+  &:after{
+    content: "Loading...";
+    position: absolute;
+    z-index: 12;
+    color: #888;
+
+  }
+}
+
+@import "endpoint";
+@import "namespace";

@@ -1,0 +1,26 @@
+.rad-namespace{
+
+  $button-color: #23282d;
+
+  &-button{
+    display: inline-block;
+    cursor: pointer;
+    border: 2px solid $button-color;
+    color: $button-color;
+    background: transparent;
+    border-radius: 0;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 10px;
+    transition: color .3s linear, background-color .3s linear;
+    &:hover{
+      background-color: $button-color;
+      color: #fff;
+    }
+  }
+  &-item{
+    display: inline-block;
+    margin: 0 10px 10px 0;
+  }
+}

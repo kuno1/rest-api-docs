@@ -1,0 +1,91 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2018-03-27 18:21+0900\n"
+"PO-Revision-Date: 2018-03-27 18:21+0900\n"
+"Last-Translator: Takahashi Fumiki <takahashi.fumiki@hametuha.co.jp>\n"
+"Language-Team: \n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: includes/i18n.php:12
+msgid "Home"
+msgstr "ホーム"
+
+#: includes/i18n.php:13
+msgid "Namespaces"
+msgstr "名前空間"
+
+#: includes/i18n.php:14
+msgid "Not set"
+msgstr "設定なし"
+
+#: includes/i18n.php:15
+msgid "Type"
+msgstr "型"
+
+#: includes/i18n.php:16
+msgid "Arguments"
+msgstr "引数"
+
+#: includes/i18n.php:17
+msgid "No arguments."
+msgstr "引数はありません。"
+
+#: includes/i18n.php:18
+msgid "Default Value"
+msgstr "初期値"
+
+#: includes/i18n.php:19
+msgid "Allowed Value"
+msgstr "許可された値"
+
+#: includes/i18n.php:20
+msgid "Required"
+msgstr "必須"
+
+#: includes/i18n.php:21
+msgid "Description"
+msgstr "説明"
+
+#: rest-api-doc.php:24
+#, php-format
+msgid "This plugin requires PHP 5.4 and over, but your's %s."
+msgstr "このプラグインはPHP5.4以上を必須としますが、あなたのバージョンは %s です。"
+
+#: rest-api-doc.php:49
+msgid "REST API Doc"
+msgstr ""
+
+#: rest-api-doc.php:49
+msgid "REST API"
+msgstr ""
+
+#: rest-api-doc.php:83
+msgid "REST API Documentation"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "REST API Docs"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/rest-api-docs"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "A documentation tool for WP REST API."
+msgstr "WP REST APIのドキュメンテーションツール。"
+
+#. Author of the plugin/theme
+msgid "Kunoichi INC."
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://kunoichiwp.com"
+msgstr ""
