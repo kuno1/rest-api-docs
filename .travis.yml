@@ -16,7 +16,7 @@ env:
   - WP_VERSION=4.7 WP_MULTISITE=0
   global:
   - SVN_REPO: https://plugins.svn.wordpress.org/rest-api-docs/
-  - secure: "SoQvImLE6BURpTxCgnN05XQAhCPGARVDxvqmz9W+WEbzy/dQYSP2mFMDwspeCk7WcNjDzzCjDk6Zz3SRj31rvzaYsdPOboLPkSX/n+RwiCQYWpAiiAL+OYm7RYoj+6N7cK2dzaDhYRG2sbdZ0nkS/+4J4TmEp9CtiA5Q+S5RLJo="
+  - secure: "LkQFEma7bBolC9c54QrTqJ6s4LVIdn0+AGybtgHkYjcKid3kVzTBj6t5hrdrgd1K2BnnCeCfS5eb/sjfI7w1NveqxtHEqzmE4E+s0bjfhxAyj1dBuC0cAmhOChJgPLlJZG4Hfg9Lr8vN/wMO3t1L/EFqioBiLf1jk9DbABpJvrESxRWcGbRKZoDZn4ptf08hWuBWL+7upfUcHSGmBwVBinM2VtWIp5uauFpwXS3eP4scT1hFTZkQAX3ycbtlitLsljeCUn94JceBtOcaRAC6nQ5gjG5MUF0SK7HyS9FnT3WZ2usywNego/46ZCkpcAU5byGYuNa6LoeUI/2AaBo+XHRRHRKkwgSSXl5K4c2uOauFTGMOrV0oLmyfP1Qcs9V6bJx4kVtSMxu5y0e8s9rcRBwACFJ/xFsa3yIgF71akRJvj+leKdfgZ4/4XxB41xXOtVFxmbKsTgQHKMCZjjF+HJS63/sAujnogfr1qnKoXda5r33W5Ojla4ENdSwLnGaRyG+NVWuQNvA+6+pVhb6peRrtUfcnAP0oZrZW9YqdUIQ7TRaaWxruEVnFa9aE+gEuUZc2vIPeUmcnmOcFEfTdBscWWOGxh73579IVaDOcEYEtKDXyk7rb/gc13zmEkJ0Kh0P/vHzsd0fDKOrl8bcFAK4Jv+K+xPBQVZ+HiSb/76o="
 matrix:
   include:
   - php: 5.6
