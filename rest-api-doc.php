@@ -7,7 +7,7 @@
  * Author URI:      https://tarosky.co.jp/
  * Text Domain:     rad
  * Domain Path:     /languages
- * Version:         0.1.0
+ * Version:         0.2.0
  *
  * @package         rad
  */
@@ -21,7 +21,7 @@ defined( 'ABSPATH' ) || die();
  */
 function rad_alert() {
 	// translators: %s is PHP version.
-	$msg = sprintf( __( 'This plugin requires PHP 5.4 and over, but your\'s %s.' , 'rad' ), phpversion() );
+	$msg = sprintf( __( 'This plugin requires PHP 5.4 and over, but your\'s %s.', 'rad' ), phpversion() );
 	printf( '<div class="error"><p><strong>REST API Docs</strong>%s</p></div>', esc_html( $msg ) );
 }
 
@@ -38,6 +38,7 @@ function rad_init() {
 		add_action( 'admin_menu', 'rad_register_menu' );
 	}
 }
+
 add_action( 'plugins_loaded', 'rad_init' );
 
 /**
@@ -59,10 +60,10 @@ function rad_assets( $page ) {
 		return;
 	}
 	$asset_dir = plugin_dir_url( __FILE__ ) . 'assets';
-	$info   = get_file_data( __FILE__, array(
+	$info      = get_file_data( __FILE__, array(
 		'version' => 'Version',
 	) );
-	$version = $info['version'];
+	$version   = $info['version'];
 	// Load global style.
 	wp_enqueue_style( 'rad-admin', $asset_dir . '/css/rest-api-docs.css', [], $version );
 	// Load Scripts.
@@ -70,6 +71,7 @@ function rad_assets( $page ) {
 	$vars = include __DIR__ . '/includes/i18n.php';
 	wp_localize_script( 'rad-admin', 'RadVars', $vars );
 }
+
 add_action( 'admin_enqueue_scripts', 'rad_assets' );
 
 /**
@@ -80,7 +82,7 @@ add_action( 'admin_enqueue_scripts', 'rad_assets' );
 function rad_admin_page() {
 	?>
 	<div class="wrap">
-		<h2><?php esc_html_e( 'REST API Documentation', 'rad' ) ?></h2>
+		<h2><?php esc_html_e( 'REST API Documentation', 'rad' ); ?></h2>
 		<div id="rest-api-doc"></div>
 	</div>
 	<?php

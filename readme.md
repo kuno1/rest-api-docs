@@ -1,11 +1,11 @@
-# REST API Doc
+# REST API Docs
 
 Contributors: tarosky,Takahashi_Fumiki  
 Donate link: https://tarosky.co.jp/  
 Tags: rest  
 Requires at least: 4.7  
 Tested up to: 4.9.4  
-Stable tag: 0.1.0  
+Stable tag: 0.2.0  
 License: GPLv3 or later  
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -43,13 +43,18 @@ cd rest-api-docs
 
 ### How can I report bugs?
 
-Post to support forum or create issue on [github]().
+Post to support forum or create issue on [github](https://github.com/kuno1/rest-api-docs/issues).
 
 ## Screenshots
 
 W.I.P
 
 ## Changelog
+
+### 0.2.0
+
+* Add automatic deploy.
+* Change plugin name with "s".
 
 ###  0.1.0
 

@@ -1,6 +1,8 @@
 <?php
 /**
  * Translated strings.
+ *
+ * @package rad
  */
 
 defined( 'ABSPATH' ) || die();

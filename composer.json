@@ -1,0 +1,30 @@
+{
+    "name": "kuno1/rest-api-docs",
+    "description": "Documentation tool for WordPress REST API.",
+    "type": "wordpress-plugin",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "fumikito",
+            "email": "guy@hametuha.com"
+        }
+    ],
+    "scripts": {
+        "test": [
+            "phpunit"
+        ],
+        "cs": [
+            "phpcs --config-set installed_paths vendor/wp-coding-standards/wpcs",
+            "phpcs --standard=phpcs.xml.dist ./"
+        ]
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.8",
+        "squizlabs/php_codesniffer": "~2.8",
+        "wp-coding-standards/wpcs": "~0.11"
+    }
+}
